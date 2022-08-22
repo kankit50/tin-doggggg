@@ -1,0 +1,153 @@
+body{
+  font-family: Montserrat;
+}
+#title{
+  color: #fff;
+  background-color: #ff4c68;
+}
+h1{
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h3{
+  font-family: "Montserrat-Bold";
+
+}
+p{
+  color:#Bf8f8f;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar{
+  padding : 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size:  2.5rem;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navbar-nav{
+  margin-left: auto;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.tittle-image{
+  transform:rotate(25deg);
+  width: 60%;
+  position:relative;
+  left: 20%;
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*testimonial*/
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+ .carousel-item{
+   padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-col{
+  padding: 5% 3%;
+}
+ @media (max-width:1028px){
+   #tittle{
+     text-align: center;
+   }
+.tittle-image{
+  transform: rotate(0);
+}
+ }
+
+ #cta{
+   background-color: #ff4c68;
+   font-family: Montserrat-Black;
+   text-align: center;
+   padding-top:5%;
+   color: #fff;
+
+ }
+.cta{
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3%;
+  /* font-family: 'Sacramento', cursive; */
+  spacing:auto;
+
+
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.aks{
+  font-size: 20px;
+}
